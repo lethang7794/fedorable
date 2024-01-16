@@ -1,5 +1,14 @@
 com.github.GradienceTeam.Gradience
-org.signal.Signal
+
 md.obsidian.Obsidian
 io.bassi.Amberol
 com.discordapp.Discord
+
+com.mattjakeman.ExtensionManager
+org.gnome.PowerStats
+net.nokyan.Resources
+
+# org.signal.Signal
+# com.visualstudio.code
+# com.microsoft.Edge
+# com.github.dynobo.normcap

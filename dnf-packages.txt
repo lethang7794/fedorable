@@ -1,21 +1,37 @@
+### GUI Apps
 google-chrome-stable
+gimp
+vlc
+deja-dup
+libreoffice
+# flameshot
+# microsoft-edge-stable
+
+### CLI tools
 neofetch
 btop
-gnome-extensions-app
-gnome-tweaks
-vlc
-neofetch
 p7zip
 p7zip-plugins
 unzip
 unrar
-gparted
-nmap
-gimp
-libreoffice
-inkscape
-cozy
-obs-studio
-qbittorrent
-amberol
-calibre
+# gparted
+
+### Linux
+xdotool
+wmctrl
+gnome-epub-thumbnailer # https://gitlab.gnome.org/GNOME/gnome-epub-thumbnailer
+gnome-directory-thumbnailer
+
+# gnome-tweaks # Use flatpak Extention Manager
+# gnome-extensions-app
+
+### Dev tools
+bat
+broot
+tldr
+cheat
+lsd
+ncdu
+dust
+httpie
+hey

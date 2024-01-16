@@ -1,0 +1,6 @@
+redhat.vscode-yaml
+davidanson.vscode-markdownlint
+streetsidesoftware.code-spell-checker
+phoihos.csv-to-md-table
+natqe.reload
+
