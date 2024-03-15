@@ -26,7 +26,8 @@ OPTIONS=(1 "Enable RPM Fusion - Enables the RPM Fusion repos for your specific v
     8 "Install Nvidia - Install akmod Nvidia drivers"
     9 "Install Microsoft: Edge"
     10 "Install Microsoft: VS Code"
-    11 "Quit")
+    11 "Install Gnome Extensions"
+    12 "Quit")
 
 while [ "$CHOICE -ne 4" ]; do
     CHOICE=$(dialog --clear \
@@ -70,7 +71,7 @@ while [ "$CHOICE -ne 4" ]; do
         ;;
     5)
         echo "Installing Software"
-        sudo dnf install -y $DNF_PACKAGES
+        sudo dnf install -y "$DNF_PACKAGES"
         notify-send "Software has been installed" --expire-time=10
         ;;
     6)
@@ -124,6 +125,13 @@ while [ "$CHOICE -ne 4" ]; do
         notify-send "VS Code has been installed" --expire-time=10
         ;;
     11)
+        EXTS="$(cat gnome-extensions.txt)"
+        for ext in $EXTS; do
+            echo "$ext"
+            gnome-extensions install "$ext"
+        done
+        ;;
+    12)
         exit 0
         ;;
     esac

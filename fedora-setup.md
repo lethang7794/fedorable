@@ -1,35 +1,52 @@
 # Fedora Setup
 
-## Turn on Touchpad Tap to Click
+## OS Settings
+
+### Turn on Touchpad Tap to Click
 
 Settings > Mouse & Touchpad > Touchpad > Clicking > Tap to Click > On
 
+## Terminal
+
+### Alacrity
+
+### kitty
+
+### Tmux
+
+```shell
+# ~/.tmux.conf
+set -g mouse on
+```
+
 ## Shell
+
+### bash
 
 ### zsh
 
 #### antidote: Install with brew
 
+### fish
+
+## Prompt
+
 ### starship
 
-## CLI
+## CLI tools
 
-```
-sudo dnf install tldr
+```shell
+DNF_PACKAGES=$(cat dnf-packages.txt | grep --invert-match "^\s*#")
+sudo dnf install $DNF_PACKAGES
 ```
 
 Check `dnf-packages.txt`
 
 ## Brew
 
-```
-brew install antidote
-```
-
-```
-antidote # https://github.com/mattmc3/antidote
-exa # https://github.com/ogham/exa
-broot # https://github.com/Canop/broot
+```shell
+BREW_PACKAGES=$(cat brew-packages.txt | grep --invert-match "^\s*#")
+brew install $BREW_PACKAGES
 ```
 
 ## Volta

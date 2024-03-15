@@ -15,6 +15,7 @@ p7zip-plugins
 unzip
 unrar
 # gparted
+# nmap
 
 ### Linux
 xdotool

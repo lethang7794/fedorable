@@ -1,0 +1,9 @@
+background-logo@fedorahosted.org
+dim-background-windows@stephane-13.github.com
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+maximize-lonely-window@MrShuster
+native-window-placement@gnome-shell-extensions.gcampax.github.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+tophat@fflewddur.github.io
+update-extension@purejava.org
+window-list@gnome-shell-extensions.gcampax.github.com

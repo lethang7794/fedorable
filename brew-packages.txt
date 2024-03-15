@@ -1,0 +1,4 @@
+antidote # https://github.com/mattmc3/antidote
+exa      # https://github.com/ogham/exa
+broot    # https://github.com/Canop/broot
+thefuck  # https://github.com/nvbn/thefuck

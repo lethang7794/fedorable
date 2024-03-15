@@ -12,5 +12,5 @@ PACKAGES=$($PACKAGES_ALL | grep --invert-match "#")
 
 # Install the packages using flatpak
 for PACKAGE in $PACKAGES; do
-  flatpak install -y $PACKAGE
+  flatpak install -y "$PACKAGE"
 done
